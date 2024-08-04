@@ -1,11 +1,11 @@
 let firestateprop = null;
-const cannascene = BS.BanterScene.getInstance();
+// const cannascene = BS.BanterScene.getInstance();
 // cannascene.On("loaded", () => {
 // 	console.log("STATEPROP.js: scene loaded, setting prop value");
 // 	//// prop 0 enables YT player, 1 for screen cast
 // 	setPublicSpaceProp('firestateprop', '1');
 // SetPublicSpaceProps - Set a property on the space that will persist and be synced to all players. Like oneshot but includes persistance.
-cannascene.SetPublicSpaceProps(props: {[key: string]: string});
+// cannascene.SetPublicSpaceProps(props: {[key: string]: string});
 // })
 
 window.onload = (event) => { 
