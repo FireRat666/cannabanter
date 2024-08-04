@@ -1,10 +1,10 @@
 let firestateprop = null;
-const cannascene = BS.BanterScene.getInstance();
-cannascene.On("loaded", () => {
-	console.log("STATEPROP.js: scene loaded, setting prop value");
-	//// prop 0 enables YT player, 1 for screen cast
-	setPublicSpaceProp('firestateprop', '1');
-})
+// const cannascene = BS.BanterScene.getInstance();
+// cannascene.On("loaded", () => {
+// 	console.log("STATEPROP.js: scene loaded, setting prop value");
+// 	//// prop 0 enables YT player, 1 for screen cast
+// 	setPublicSpaceProp('firestateprop', '1');
+// })
 
 window.onload = (event) => { 
 	console.log("STATEPROP.js: Set State Prop")
@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.detail.changes.forEach(change => {
       switch(change.property) {
         case "firestateprop":
+   	  firestateprop = change.newValue;
           if (firestateprop && firestateprop !== change.newValue) {
             console.log("firestateprop change: " + firestateprop);
             firestateprop = change.newValue;
