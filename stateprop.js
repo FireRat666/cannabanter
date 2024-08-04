@@ -11,7 +11,7 @@ let firestateprop = null;
 window.onload = (event) => { 
 	console.log("STATEPROP.js: Set State Prop")
 	//// prop 0 enables YT player, 1 for screen cast
-	setPublicSpaceProp('firestateprop', '1');
+	setPublicSpaceProp('firestateprop', '0');
 };
 
 // window.addEventListener('load', (event) => {
