@@ -4,7 +4,7 @@ window.onload = (event) => {
 	console.log("STATEPROP.js: Set State Prop")
 	
 //// ZERO enables YT player, ONE for screen cast and No Youtube (0 or 1) 
-	setPublicSpaceProp('firestateprop', '0');
+	setPublicSpaceProp('firestateprop', '1');
 	
 };
 
