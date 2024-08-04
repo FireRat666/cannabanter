@@ -9,5 +9,5 @@ const cannascene = BS.BanterScene.getInstance();
 cannascene.On("loaded", () => {
 	console.log("STATEPROP: scene loaded, setting prop value");
 	//// prop 0 enables YT player, 1 for screen cast
-	setPublicSpaceProp('firestateprop', '0');
+	setPublicSpaceProp('firestateprop', '1');
 })
