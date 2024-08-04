@@ -1,4 +1,15 @@
 let firestateprop = null;
+
+window.onload = (event) => { 
+	console.log("STATEPROP.js: Set State Prop")
+	
+//// ZERO enables YT player, ONE for screen cast and No Youtube (0 or 1) 
+	setPublicSpaceProp('firestateprop', '0');
+	
+};
+
+
+
 // const cannascene = BS.BanterScene.getInstance();
 // cannascene.On("loaded", () => {
 // 	console.log("STATEPROP.js: scene loaded, setting prop value");
@@ -8,11 +19,7 @@ let firestateprop = null;
 // cannascene.SetPublicSpaceProps(props: {[key: string]: string});
 // })
 
-window.onload = (event) => { 
-	console.log("STATEPROP.js: Set State Prop")
-	//// prop 0 enables YT player, 1 for screen cast
-	setPublicSpaceProp('firestateprop', '0');
-};
+
 
 // window.addEventListener('load', (event) => {
 document.addEventListener("DOMContentLoaded", () => {
