@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
           if (firestateprop == "0") {
             console.log("firestateprop: NOT 1, IS 0");
-            testenableVideoPlayer();
+            // testenableVideoPlayer();
             // disablefirescreencast();
             // setTimeout(() => { loadscripts(); }, 7000);
           }
@@ -94,3 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   i++;
 });
+
+
+// THIS SHOULD BE COMMENTED OUT TO REMOVE THE YOUTUBE PLAYER
+testenableVideoPlayer();
+
