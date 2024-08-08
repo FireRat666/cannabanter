@@ -25,6 +25,7 @@ window.onload = (event) => {
 let ytplayerdisabled = true;
   function testenableVideoPlayer() {
   if (ytplayerdisabled){
+    console.log("yt player enabling");
     ytplayerdisabled = false;
     const videoplayer = document.createElement("script");
 		videoplayer.id = "cannabanter-videoplayer";
@@ -50,7 +51,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("src", "https://best-v-player.glitch.me/playlist.js");
     document.querySelector("a-scene").appendChild(videoplayer);
   }
-    console.log("yt player enabled");
+    console.log("enable yt player called");
 };
 
 
