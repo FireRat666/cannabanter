@@ -2,24 +2,16 @@ let firestateprop = null;
 
 window.onload = (event) => { 
 	console.log("STATEPROP.js: Set State Prop")
-	
-//// ZERO enables YT player, ONE for screen cast and No Youtube (0 or 1) 
+	//// ZERO Disables Browser Hand Controls. ONE Enables them (0 or 1) 
 	setPublicSpaceProp('firestateprop', '0');
-	
 };
 
-
-
-// const cannascene = BS.BanterScene.getInstance();
-// cannascene.On("loaded", () => {
-// 	console.log("STATEPROP.js: scene loaded, setting prop value");
-// 	//// prop 0 enables YT player, 1 for screen cast
-// 	setPublicSpaceProp('firestateprop', '1');
-// SetPublicSpaceProps - Set a property on the space that will persist and be synced to all players. Like oneshot but includes persistance.
-// cannascene.SetPublicSpaceProps(props: {[key: string]: string});
-// })
-
-
+const cannascene = BS.BanterScene.getInstance();
+cannascene.On("loaded", () => {
+	console.log("cannascene: scene loaded");
+	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
+	testenableVideoPlayer();
+});
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
 let ytplayerdisabled = true;
@@ -50,14 +42,8 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("data-skip-backward-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_Bk.png?v=1711785429431");
 		videoplayer.setAttribute("src", "https://vidya.sdq.st/playlist.js");
     document.querySelector("a-scene").appendChild(videoplayer);
-  }
-    console.log("enable yt player called");
+  } else {console.log("enable yt player called");}
 };
-
-
-
-
-
 
 // window.addEventListener('load', (event) => {
 document.addEventListener("DOMContentLoaded", () => {
@@ -69,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     await window.AframeInjection.waitFor(window, "loaded");
     e.detail.changes.forEach(change => {
       switch(change.property) {
-        case "firestateprop":
+        case "":
    	  firestateprop = change.newValue;
           if (firestateprop && firestateprop !== change.newValue) {
             console.log("firestateprop change: " + firestateprop);
@@ -79,13 +65,10 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("firestateprop: IS 1");
             enableScreenStuff();
             // setTimeout(() => { loadscripts(); }, 3000);
-            // setTimeout(() => { enablefirescreencast(); }, 5000);
           }
           if (firestateprop == "0") {
             console.log("firestateprop: NOT 1, IS 0");
             // testenableVideoPlayer();
-            // disablefirescreencast();
-            // setTimeout(() => { loadscripts(); }, 7000);
           }
         console.log("firestateprop value: " + firestateprop);
         break; 
@@ -94,11 +77,3 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   i++;
 });
-
-const cannascene = BS.BanterScene.getInstance();
-cannascene.On("loaded", () => {
-	console.log("cannascene: scene loaded");
-	// THIS SHOULD BE COMMENTED OUT TO REMOVE THE YOUTUBE PLAYER
-	testenableVideoPlayer();
-})
-
