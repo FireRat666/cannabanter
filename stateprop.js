@@ -95,7 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
   i++;
 });
 
-
-// THIS SHOULD BE COMMENTED OUT TO REMOVE THE YOUTUBE PLAYER
-testenableVideoPlayer();
+const cannascene = BS.BanterScene.getInstance();
+cannascene.On("loaded", () => {
+	console.log("cannascene: scene loaded");
+	// THIS SHOULD BE COMMENTED OUT TO REMOVE THE YOUTUBE PLAYER
+	testenableVideoPlayer();
+})
 
