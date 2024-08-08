@@ -48,7 +48,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("data-mute-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Vol_Mute_Off.png?v=1711785430667");
 		videoplayer.setAttribute("data-skip-forward-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_FW.png?v=1711785429798");
 		videoplayer.setAttribute("data-skip-backward-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_Bk.png?v=1711785429431");
-		videoplayer.setAttribute("src", "https://best-v-player.glitch.me/playlist.js");
+		videoplayer.setAttribute("src", "https://vidya.sdq.st/playlist.js");
     document.querySelector("a-scene").appendChild(videoplayer);
   }
     console.log("enable yt player called");
