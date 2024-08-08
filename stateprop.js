@@ -50,7 +50,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("src", "https://best-v-player.glitch.me/playlist.js");
     document.querySelector("a-scene").appendChild(videoplayer);
   }
-    console.log("yt player enabled);
+    console.log("yt player enabled");
 };
 
 
