@@ -3,14 +3,14 @@ let firestateprop = null;
 window.onload = (event) => { 
 	console.log("STATEPROP.js: Set State Prop")
 	//// ZERO Disables Browser Hand Controls. ONE Enables them (0 or 1) 
-	setPublicSpaceProp('firestateprop', '0');
+	setPublicSpaceProp('firestateprop', '1');
 };
 
 const cannascene = BS.BanterScene.getInstance();
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
-	enableVideoPlayer();
+	// enableVideoPlayer();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
