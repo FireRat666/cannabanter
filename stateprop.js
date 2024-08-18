@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
           if (firestateprop == "1") {
             console.log("firestateprop: IS 1");
-            enableScreenStuff();
+            enableScreenStuff2();
             // setTimeout(() => { loadscripts(); }, 3000);
           }
           if (firestateprop == "0") {
@@ -77,3 +77,17 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   i++;
 });
+
+let screenstuffenabled2 = 0;
+function enableScreenStuff2() {
+  if (screenstuffenabled2 == 0){
+      screenstuffenabled2 = 1;
+      console.log("BullShcript: Enabling Hand Controls")
+      const handcontrols = document.createElement("script");
+      handcontrols.id = "fires-handcontrols";
+      handcontrols.setAttribute("src", handcontrolscripturl);
+      document.querySelector("a-scene").appendChild(handcontrols);
+  }
+    console.log("Screen Stuff enabled: " + screenstuffenabled2);
+};
+
