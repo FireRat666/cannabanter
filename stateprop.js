@@ -5,7 +5,7 @@ let firestateprop = null;
 	// setPublicSpaceProp('firestateprop', '1');
 // };
 
-const cannascene = BS.BanterScene.getInstance();
+const cannascene = BS.BanterScene.GetInstance();
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
