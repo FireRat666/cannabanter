@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
           if (firestateprop == "1") {
             console.log("firestateprop: IS 1");
-            enableScreenStuff2();
+            // enableScreenStuff2();
             // setTimeout(() => { loadscripts(); }, 3000);
           }
           if (firestateprop == "0") {
