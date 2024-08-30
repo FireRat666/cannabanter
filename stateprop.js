@@ -96,7 +96,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("backdrop", "false");
 	firescreen.setAttribute("hand-controls", "true");
 	firescreen.setAttribute("volume", "0.25");
-	firescreen.setAttribute("website", "https://www.youtube.com/embed/Wyz7C8vaoIA?autoplay=1&controls=0");
+	firescreen.setAttribute("website", "https://www.youtube.com/embed/4BpP8FKelr0?autoplay=1&controls=0");
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreen.js");
 	document.querySelector("a-scene").appendChild(firescreen);
   }
