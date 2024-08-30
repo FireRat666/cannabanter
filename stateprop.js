@@ -1,4 +1,5 @@
 let firestateprop = null;
+let websiteurl = "https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0"; // ?autoplay=1&controls=0 For Youtube Live
 
 // window.onload = (event) => { 
 	// console.log("STATEPROP.js: Set State Prop")
@@ -97,7 +98,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("hand-controls", "true");
 	firescreen.setAttribute("volume", "0.25");
 	firescreen.setAttribute("button-position", "0.3 3.0 22.5");
-	firescreen.setAttribute("website", "https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0");
+	firescreen.setAttribute("website", websiteurl);
 	//Screencast - https://screen.sdq.st:8443/?room=cannabanter
 	//YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreen.js");
