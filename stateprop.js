@@ -11,7 +11,7 @@ cannascene.On("loaded", () => {
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
 	//enableVideoPlayer();
 	// UNCOMMENTED THIS OUT TO ENABLE SCREEN HAND CONTROLS
-	// enableScreenStuff2();
+	enableScreenStuff2();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
