@@ -9,7 +9,7 @@ cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
 		//enableVideoPlayer();
-	// UNCOMMENTED THIS OUT TO ENABLE SCREEN HAND CONTROLS
+	// UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE
 		enableScreenStuff2();
 });
 
