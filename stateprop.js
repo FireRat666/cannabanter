@@ -69,9 +69,8 @@ function enableScreenStuff2() {
   }
   // setTimeout(() => { 
   //   let firescreencast = document.getElementById("fires-browser1");
-  //   firescreencast.browser.RunActions(JSON.stringify(
-  //       {"actions":[{"actionType": "click2d","strparam1": "0.5,0.5;"}]}));
-  //   console.log("Hopefully set browser page width and height");
+  //   firescreencast.browser.RunActions(JSON.stringify({"actions":[{"actionType": "click2d","strparam1": "0.5,0.5;"}]}));
+  //   console.log("Click Browser");
   // }, 3000); 
 	
     console.log("Screen Stuff enabled: " + screenstuffenabled2);
