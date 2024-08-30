@@ -9,9 +9,9 @@ const cannascene = BS.BanterScene.GetInstance();
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
-	enableVideoPlayer();
+	//enableVideoPlayer();
 	// UNCOMMENTED THIS OUT TO ENABLE SCREEN HAND CONTROLS
-   	// enableScreenStuff2();
+   	 enableScreenStuff2();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
