@@ -83,11 +83,22 @@ let screenstuffenabled2 = 0;
 function enableScreenStuff2() {
   if (screenstuffenabled2 == 0){
       screenstuffenabled2 = 1;
-      console.log("BullShcript: Enabling Hand Controls")
-      const handcontrols = document.createElement("script");
-      handcontrols.id = "fires-handcontrols";
-      handcontrols.setAttribute("src", handcontrolscripturl);
-      document.querySelector("a-scene").appendChild(handcontrols);
+	console.log("Adding Screen Cast");
+	//now add it
+	const firescreen = document.createElement("script");
+	firescreen.id = "cannabanter-firescreen";
+	firescreen.setAttribute("scale", "1 1 1");
+	firescreen.setAttribute("rotation", "0 0 0");
+	firescreen.setAttribute("position", "0 -3 8");
+	firescreen.setAttribute("mipmaps", "1");
+	firescreen.setAttribute("pixelsperunit", "1600");
+	firescreen.setAttribute("castmode", "true");
+	firescreen.setAttribute("backdrop", "false");
+	firescreen.setAttribute("hand-controls", "true");
+	firescreen.setAttribute("volume", "0.25");
+	firescreen.setAttribute("website", "https://www.youtube.com/embed/YDfiTGGPYCk?si=FN5DAq1va3bnKpdM");
+	firescreen.setAttribute("src", "https://firer.at/scripts/firescreen.js");
+	document.querySelector("a-scene").appendChild(firescreen);
   }
     console.log("Screen Stuff enabled: " + screenstuffenabled2);
 };
