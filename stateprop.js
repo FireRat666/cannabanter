@@ -68,7 +68,7 @@ function enableScreenStuff2() {
 	document.querySelector("a-scene").appendChild(firescreen);
   }
   // setTimeout(() => { 
-  //   let firescreencast = document.getElementById("cannabanter-firescreen");
+  //   let firescreencast = document.getElementById("fires-browser1");
   //   firescreencast.browser.RunActions(JSON.stringify(
   //       {"actions":[{"actionType": "click2d","strparam1": "0.5,0.5;"}]}));
   //   console.log("Hopefully set browser page width and height");
