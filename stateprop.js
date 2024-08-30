@@ -100,6 +100,14 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreen.js");
 	document.querySelector("a-scene").appendChild(firescreen);
   }
+  // setTimeout(() => { 
+  //   let firescreencast = document.getElementById("cannabanter-firescreen");
+  //   firescreencast.browser.RunActions(JSON.stringify(
+  //       {"actions":[{"actionType": "click2d","strparam1": "0.5,0.5;"}]}));
+  //   console.log("Hopefully set browser page width and height");
+  // }, 3000); 
+	
     console.log("Screen Stuff enabled: " + screenstuffenabled2);
+	
 };
 
