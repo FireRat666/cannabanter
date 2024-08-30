@@ -1,18 +1,14 @@
+const cannascene = BS.BanterScene.GetInstance();
 let firestateprop = null;
+
 let websiteurl = "https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0"; // ?autoplay=1&controls=0 For Youtube Live
 
-// window.onload = (event) => { 
-	// console.log("STATEPROP.js: Set State Prop")
-	// setPublicSpaceProp('firestateprop', '1');
-// };
-
-const cannascene = BS.BanterScene.GetInstance();
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
-	//enableVideoPlayer();
+		//enableVideoPlayer();
 	// UNCOMMENTED THIS OUT TO ENABLE SCREEN HAND CONTROLS
-	enableScreenStuff2();
+		enableScreenStuff2();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
@@ -46,39 +42,6 @@ let ytplayerdisabled = true;
     document.querySelector("a-scene").appendChild(videoplayer);
   } else {console.log("enable yt player called");}
 };
-
-// window.addEventListener('load', (event) => {
-document.addEventListener("DOMContentLoaded", () => {
-  if(window.isBanter){
-    let isFirstRun = false;
-    console.log("set first run false");
-  }
-  AframeInjection.addEventListener('spaceStateChange', async e => {
-    await window.AframeInjection.waitFor(window, "loaded");
-    e.detail.changes.forEach(change => {
-      switch(change.property) {
-        case "":
-   	  firestateprop = change.newValue;
-          if (firestateprop && firestateprop !== change.newValue) {
-            console.log("firestateprop change: " + firestateprop);
-            firestateprop = change.newValue;
-          }
-          if (firestateprop == "1") {
-            console.log("firestateprop: IS 1");
-            // enableScreenStuff2();
-            // setTimeout(() => { loadscripts(); }, 3000);
-          }
-          if (firestateprop == "0") {
-            console.log("firestateprop: NOT 1, IS 0");
-            // testenableVideoPlayer();
-          }
-        console.log("firestateprop value: " + firestateprop);
-        break; 
-      }
-      })
-      });
-  i++;
-});
 
 let screenstuffenabled2 = 0;
 function enableScreenStuff2() {
