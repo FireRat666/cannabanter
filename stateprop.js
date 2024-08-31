@@ -1,16 +1,22 @@
 const cannascene = BS.BanterScene.GetInstance();
 let firestateprop = null;
 
+/* YouTube Playlists
+Light Shows and Music PLZWiw-xxQ4SNl-dmJhSk6xSnGuALdCZGf
+Night at Cannabanter PLZWiw-xxQ4SOvb8f0nA4_QbGl2hAQuoGR
+Tech House Mix PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12
+*/
+
 //Screencast - https://screen.sdq.st:8443/?room=cannabanter
 //YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0
-let websiteurl = "https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0"; // ?autoplay=1&controls=0 For Youtube Live
+let websiteurl = "https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0"; // ?autoplay=1&controls=0 For YouTube Live
 
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
-		//enableVideoPlayer();
+		enableVideoPlayer();
 	// UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE
-		enableScreenStuff2();
+		//enableScreenStuff2();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
@@ -31,7 +37,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("button-scale", "0.4 0.4 0.4");
 		videoplayer.setAttribute("spatial-min-distance", "1");
 		videoplayer.setAttribute("spatial-max-distance", "100");
-		videoplayer.setAttribute("playlist", "PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12");
+		videoplayer.setAttribute("playlist", "PLZWiw-xxQ4SNl-dmJhSk6xSnGuALdCZGf");
 		videoplayer.setAttribute("announce", "false");
 		// videoplayer.setAttribute("announce-four-twenty", "false");
 		videoplayer.setAttribute("data-playlist-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Playlist.png?v=1711786451727");
