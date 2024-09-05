@@ -14,14 +14,14 @@ let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; // ?autoplay=1&
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	// COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER
-		 enableVideoPlayer();
+		 enableVideoPlayer2();
 	// UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE
 		// enableScreenStuff2();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
 let ytplayerdisabled = true;
-  function enableVideoPlayer() {
+  function enableVideoPlayer2() {
   if (ytplayerdisabled){
     console.log("yt player enabling");
     ytplayerdisabled = false;
@@ -46,7 +46,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("data-mute-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Vol_Mute_Off.png?v=1711785430667");
 		videoplayer.setAttribute("data-skip-forward-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_FW.png?v=1711785429798");
 		videoplayer.setAttribute("data-skip-backward-icon-url", "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_Bk.png?v=1711785429431");
-		videoplayer.setAttribute("src", "https://vidya.sdq.st/playlist.js");
+		videoplayer.setAttribute("src", "https://best-v-player.glitch.me/playlist.js"); // https://vidya.sdq.st/playlist.js
     document.querySelector("a-scene").appendChild(videoplayer);
   } else {console.log("enable yt player called");}
 };
