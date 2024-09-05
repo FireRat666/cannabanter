@@ -21,7 +21,7 @@ cannascene.On("loaded", () => {
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
 let ytplayerdisabled = true;
-  function testenableVideoPlayer() {
+  function enableVideoPlayer() {
   if (ytplayerdisabled){
     console.log("yt player enabling");
     ytplayerdisabled = false;
