@@ -67,6 +67,8 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("castmode", "true");
 	firescreen.setAttribute("backdrop", "false");
 	firescreen.setAttribute("hand-controls", "true");
+	firescreen.setAttribute("announce", "true");
+	firescreen.setAttribute("announce-four-twenty", "true");
 	firescreen.setAttribute("volume", "0.25");
 	firescreen.setAttribute("button-position", "0.3 3.0 22.5");
 	firescreen.setAttribute("website", websiteurl);
