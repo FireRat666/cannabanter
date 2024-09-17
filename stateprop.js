@@ -7,8 +7,8 @@ Night at Cannabanter PLZWiw-xxQ4SOvb8f0nA4_QbGl2hAQuoGR
 Tech House Mix PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12
 */
 
-Screencast - https://screen.sdq.st:8443/?room=cannabanter
-//YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0
+/*Screencast - https://screen.sdq.st:8443/?room=cannabanter
+/*YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0 */
 let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; // ?autoplay=1&controls=0 For YouTube Live
 
 cannascene.On("loaded", () => {
