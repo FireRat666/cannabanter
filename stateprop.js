@@ -9,14 +9,14 @@ Tech House Mix PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12
 
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
 /* YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0 */
-let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
+let websiteurl = "https://www.youtube.com/embed/1J1xkDziPeQ?autoplay=1&controls=0"; /* ?autoplay=1&controls=0 For YouTube Live */
 
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-		 enableVideoPlayer2();
+		// enableVideoPlayer2();
 	/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-		// enableScreenStuff2();
+		 enableScreenStuff2();
 });
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
