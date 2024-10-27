@@ -5,6 +5,7 @@ let firestateprop = null;
 Light Shows and Music PLZWiw-xxQ4SNl-dmJhSk6xSnGuALdCZGf
 Night at Cannabanter PLZWiw-xxQ4SOvb8f0nA4_QbGl2hAQuoGR
 Tech House Mix PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12
+CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 */
 
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
