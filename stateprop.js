@@ -72,6 +72,8 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("announce", "true");
 	firescreen.setAttribute("announce-four-twenty", "true");
 	firescreen.setAttribute("volume", "0.25");
+	// firescreen.setAttribute("width", "1920");
+	// firescreen.setAttribute("height", "1080");
 	// firescreen.setAttribute("button-position", "0.3 3.0 22.5");
 	firescreen.setAttribute("website", websiteurl);
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreenv2.js");
