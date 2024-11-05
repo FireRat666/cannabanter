@@ -60,7 +60,7 @@ function enableScreenStuff2() {
 	//now add it
 	const firescreen = document.createElement("script");
 	firescreen.id = "cannabanter-firescreen";
-	firescreen.setAttribute("scale", "0.5 0.5 1");
+	firescreen.setAttribute("scale", "0.51 0.51 1");
 	firescreen.setAttribute("rotation", "0 0 0");
 	firescreen.setAttribute("position", "0 -3 -8");
 	firescreen.setAttribute("mipmaps", "1");
