@@ -62,7 +62,7 @@ function enableScreenStuff2() {
 	firescreen.id = "cannabanter-firescreen";
 	firescreen.setAttribute("scale", "0.515 0.515 1");
 	firescreen.setAttribute("rotation", "0 0 0");
-	firescreen.setAttribute("position", "0 -3 -8");
+	firescreen.setAttribute("position", "0 1.5 -8");
 	firescreen.setAttribute("mipmaps", "1");
 	firescreen.setAttribute("pixelsperunit", "1600");
 	// firescreen.setAttribute("castmode", "true");
@@ -74,7 +74,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("volume", "0.25");
 	firescreen.setAttribute("width", "1920");
 	firescreen.setAttribute("height", "1080");
-	// firescreen.setAttribute("button-position", "0.3 3.0 22.5");
+	firescreen.setAttribute("screen-position", "0 -4.5 -0.02");
 	firescreen.setAttribute("website", websiteurl);
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreenv2.js");
 	document.querySelector("a-scene").appendChild(firescreen);
