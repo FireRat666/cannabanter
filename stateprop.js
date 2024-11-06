@@ -74,7 +74,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("volume", "0.25");
 	firescreen.setAttribute("width", "1920");
 	firescreen.setAttribute("height", "1080");
-	firescreen.setAttribute("screen-position", "0 -5.5 0");
+	firescreen.setAttribute("screen-position", "0 -8 0");
 	firescreen.setAttribute("website", websiteurl);
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreenv2.js");
 	document.querySelector("a-scene").appendChild(firescreen);
