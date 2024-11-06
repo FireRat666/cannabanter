@@ -60,9 +60,10 @@ function enableScreenStuff2() {
 	//now add it
 	const firescreen = document.createElement("script");
 	firescreen.id = "cannabanter-firescreen";
-	firescreen.setAttribute("scale", "0.515 0.515 1");
+	firescreen.setAttribute("scale", "1 1 1");
 	firescreen.setAttribute("rotation", "0 180 0");
 	firescreen.setAttribute("screen-rotation", "0 180 0");
+	firescreen.setAttribute("screen-scale", "0.515 0.515 1");
 	firescreen.setAttribute("position", "0 1 -8");
 	firescreen.setAttribute("mipmaps", "1");
 	firescreen.setAttribute("pixelsperunit", "1600");
@@ -75,7 +76,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("volume", "0.25");
 	firescreen.setAttribute("width", "1920");
 	firescreen.setAttribute("height", "1080");
-	firescreen.setAttribute("screen-position", "0 -7.75 0");
+	firescreen.setAttribute("screen-position", "0 -4 0");
 	firescreen.setAttribute("website", websiteurl);
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreenv2.js");
 	document.querySelector("a-scene").appendChild(firescreen);
