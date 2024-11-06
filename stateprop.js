@@ -10,7 +10,7 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
 /* YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0 */
-let websiteurl = "hhttps://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
+let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
 
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
