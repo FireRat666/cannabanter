@@ -65,6 +65,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("screen-rotation", "0 180 0");
 	firescreen.setAttribute("screen-scale", "0.515 0.515 1");
 	firescreen.setAttribute("position", "0 1 -8");
+	firescreen.setAttribute("lock-position", "true");
 	firescreen.setAttribute("mipmaps", "1");
 	firescreen.setAttribute("pixelsperunit", "1600");
 	// firescreen.setAttribute("castmode", "true");
