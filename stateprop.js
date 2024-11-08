@@ -15,9 +15,9 @@ let websiteurl = "https://www.youtube.com/embed/poz4VGcJHTc?autoplay=1&controls=
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-		// enableVideoPlayer2();
+		 enableVideoPlayer2();
 	/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-		 enableScreenStuff2();
+		// enableScreenStuff2();
 });
 
 if(window.isBanter){
