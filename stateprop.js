@@ -20,6 +20,29 @@ cannascene.On("loaded", () => {
 		 enableScreenStuff2();
 });
 
+if(window.isBanter){
+  BS.BanterScene.GetInstance().On("unity-loaded", ()=>{
+    console.log("setSceneSettings Loading...");
+    const settings = new BS.SceneSettings();
+    settings.EnableDevTools = false;
+    settings.EnableTeleport = false;
+    settings.EnableForceGrab = false;
+    settings.EnableSpiderMan = true;
+    settings.EnablePortals = true;
+    settings.EnableGuests = true;
+    // settings.EnableQuaternionPose = false;
+    // settings.EnableControllerExtras = true;
+    // settings.EnableFriendPositionJoin = true;
+    // settings.EnableDefaultTextures = true;
+    // settings.EnableAvatars = true;
+    // settings.MaxOccupancy = 30;
+    // settings.RefreshRate = 72;
+    // settings.ClippingPlane = new BS.Vector2(0.02, 1000);
+    // settings.SpawnPoint = new BS.Vector4(-6, -0.02, -7, 180);
+    BS.BanterScene.GetInstance().SetSettings(settings);
+    setTimeout(() => { BS.BanterScene.GetInstance().SetSettings(settings); }, 2000);
+  });
+}
 // videoplayer toggle by HBR.& Fire Thank you HBR!
 let ytplayerdisabled = true;
   function enableVideoPlayer2() {
