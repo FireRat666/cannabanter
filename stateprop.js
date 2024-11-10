@@ -106,7 +106,7 @@ function enableScreenStuff2() {
 	document.querySelector("a-scene").appendChild(firescreen);
 	if (websiteurl.includes("hyperbeam.com/i/")) {
 	    setTimeout(async () => { 
-		let theBrowserthingy = await BS.BanterScene.GetInstance().Find(`MyBrowser1`);
+		let theBrowserthingy = await BS.BanterScene.GetInstance().Find(`MyBrowser2`);
 		let thebrowserpart = theBrowserthingy.GetComponent(BS.ComponentType.BanterBrowser);
 		thebrowserpart.RunActions(JSON.stringify({"actions": [{ "actionType": "runscript","strparam1": "(function() { 'use strict'; function init() { var fullscreenButton = document.querySelector(`.p-button.p-component.tu-button.btn-tertiary.btn_2YRyp svg path[d^='M3 3h6.429']`); if (fullscreenButton) { fullscreenButton.closest('button').click(); } setTimeout(async () => { var chatButton = document.querySelector(`.p-button.p-component.tu-button.btn-tertiary.fsChatBtn_2cCyy svg path[d^='M22 22h-2V2h2v20zM2 11h12.17']`); if (chatButton) { console.log('chatButton True'); chatButton.closest('button').click(); } }, 3500); } init(); })();" }]}));
 	    }, 14000);
