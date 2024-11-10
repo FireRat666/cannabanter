@@ -104,6 +104,12 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("website", websiteurl);
 	firescreen.setAttribute("src", "https://firer.at/scripts/firescreenv2.js");
 	document.querySelector("a-scene").appendChild(firescreen);
+
+    setTimeout(() => { 
+	let theBrowser = await BS.BanterScene.GetInstance().Find(`MyBrowser1`);
+	let thebrowserpart = theBrowser.GetComponent(BS.ComponentType.BanterBrowser);
+	thebrowserpart.RunActions(JSON.stringify({"actions": [{ "actionType": "runscript","strparam1": "(function() { 'use strict'; function simulateClick(element, numberOfClicks, index) { if (index < numberOfClicks) { element.click(); index++; requestAnimationFrame(() => simulateClick(element, numberOfClicks, index)); } } function init() { var element = document.querySelector(`.p-button.p-component.tu-button.btn-tertiary.btn_2YRyp svg path[d^='M3 3h6.429']`); var numberOfClicks = 1; if (element) { simulateClick(element.closest('button'), numberOfClicks, 0); } }; init(); })();" }]}));
+    }, 8000);
   }
   // setTimeout(() => { 
   //   let firescreencast = document.getElementById("fires-browser1");
