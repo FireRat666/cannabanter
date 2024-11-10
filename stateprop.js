@@ -35,10 +35,10 @@ if(window.isBanter){
     // settings.EnableFriendPositionJoin = true;
     // settings.EnableDefaultTextures = true;
     // settings.EnableAvatars = true;
-    // settings.MaxOccupancy = 30;
-    // settings.RefreshRate = 72;
-    // settings.ClippingPlane = new BS.Vector2(0.02, 1000);
-    // settings.SpawnPoint = new BS.Vector4(-6, -0.02, -7, 180);
+    settings.MaxOccupancy = 50;
+    settings.RefreshRate = 72;
+    settings.ClippingPlane = new BS.Vector2(0.05, 1000);
+    settings.SpawnPoint = new BS.Vector4(0, 0.01, 0, 180);
     BS.BanterScene.GetInstance().SetSettings(settings);
     setTimeout(() => { BS.BanterScene.GetInstance().SetSettings(settings); }, 2000);
   });
