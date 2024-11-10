@@ -38,7 +38,7 @@ if(window.isBanter){
     settings.MaxOccupancy = 50;
     settings.RefreshRate = 72;
     settings.ClippingPlane = new BS.Vector2(0.05, 1000);
-    settings.SpawnPoint = new BS.Vector4(0, 0.01, 0, 0);
+    settings.SpawnPoint = new BS.Vector4(0, 0.01, 0, 180);
     BS.BanterScene.GetInstance().TeleportTo({x: 0, y: 0.01, z: 0}, 180, true);
     BS.BanterScene.GetInstance().SetSettings(settings);
     setTimeout(() => { BS.BanterScene.GetInstance().SetSettings(settings); }, 2000);
