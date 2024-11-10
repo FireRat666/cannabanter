@@ -1,53 +1,29 @@
 <html android-bundle="https://42069.bant.ing/android.banter" windows-bundle="https://42069.bant.ing/windows.banter"><head>
-
-    <!-- Add meta tags to show icon/title in the menu in banter -->    
-    <meta property="og:title" content="Cannabanter 3.0">
-    <meta property="og:description" content="Dance with the finest plants!">
-    <meta property="og:image" content="https://cdn.sidequestvr.com/file/599787/cannabanter.jpg">
-    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
-    <script src="https://cannabanter.firer.at/stateprop.js"></script>
-    <!--<script src="/bullshcript.js"></script>-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SN7EBLKJZ9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-SN7EBLKJZ9');
-    </script>
-
- <!--   <script>
-     window.loadDoneCallback = ()=>{
-        movePlayer({x: 0, y: 0.01, z: 0});
-     };
-    </script> -->
-
+  <!-- Add meta tags to show icon/title in the menu in banter -->    
+  <meta property="og:title" content="Cannabanter 3.0">
+  <meta property="og:description" content="Dance with the finest plants!">
+  <meta property="og:image" content="https://cdn.sidequestvr.com/file/599787/cannabanter.jpg">
+  <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  <script src="https://cannabanter.firer.at/bullshcript.js?" id="cannabanterjs"></script>
+  <script>
+    const scriptthing = document.getElementById('cannabanterjs');
+    if (scriptthing) { scriptthing.src = `https://cannabanter.firer.at/bullshcript.js?${Math.floor(Math.random() * 1000) + 1}`; };
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SN7EBLKJZ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-SN7EBLKJZ9');
+  </script>
   </head>
   <body>
-    <a-scene sq-kitbundle="android: https://github.com/vanquish3r/banter/raw/main/kitbundle/screens_kitbundle_android?0; 
-                           desktop: https://github.com/vanquish3r/banter/raw/main/kitbundle/screens_kitbundle_standalonewindows?0;"
-
-             sq-refreshrate="rate:72" sq-spawnpoint="position: 0 0.01 0 180;" sq-clippingplane="near: 0.05; far: 1000;" sq-friendpositionjoinallowed="enabled: true" sq-disableteleport sq-devtoolsenabled="enabled: true" sq-maxoccupancy="number: 50">
- 
- <!-- Outfits Poster --> 
+    <a-scene embedded>
+    <!-- Outfits Poster --> 
       <a-box sq-collider sq-interactable sq-clickurl="url:https://zephiistuff.readyplayer.me/avatar?lang=en" color="green" opacity="0" position="3.79 1.45 3.28" rotation="0 45 0" depth="0.05" width="1.3" height="1">
       <a-plane
         src="https://cdn.glitch.global/b293ecb5-daaf-42ce-bec8-15b497976afe/Zephii%20Outfits%202.jpg?v=1713795978864"
                 rotation="0 180 0" scale="1.3 1 0" material="side: double"></a-plane> </a-box>
-      
- <!-- Selfie Camera -->       
- <!--     <a-entity sq-kititem="item: assets/_prefabs/selfiecamera/selfiecam.prefab" rotation="0 180 0" position="-2.31 0.805 17.998"></a-entity> -->
 
-    <!-- Main Fire Browser, grabbable/moveable -->
-  <script src="https://firer.at/scripts/firescreenv2.js" announce="true" announce-events="true" announce-420="true"
-          website="https://firer.at/pages/games.html" mipmaps="1" pixelsperunit="1200"
-          position="-3.131 7.5 -15.3" scale="0.9 0.9 1" volumelevel="0.25" 
-          button-color="0 1 0 1" volup-color="0 1 0 1" voldown-color="1 1 0 1" mute-color="1 1 1 1" 
-          custom-button01-url="https://firer.at/pages/scuffeduno.html" custom-button01-text="ScuffedUNO"
-          custom-button02-url="https://jackbox.tv" custom-button02-text="Jackbox.tv"
-          custom-button03-url="https://papas.tv" custom-button03-text="Papas.tv"></script>
-
-         <!-- CAH Table -->
+    <!-- CAH Table -->
  <!--                <a-entity sq-nonconvexcollider="recursive: true" sq-interactable="recursive: true" gltf-model="https://cdn.glitch.global/68a8fda1-eaf5-4ffe-8fbf-50f0798374a4/ha_h__table_main.glb?v=1697146939160" scale="0.01 0.01 0.01" position="0 6.09 15.3"></a-entity> -->
       
     </a-scene>
