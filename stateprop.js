@@ -10,14 +10,14 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
 /* YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0 */
-let websiteurl = "https://hyperbeam.com/i/IF1RZand"; /* ?autoplay=1&controls=0 For YouTube Live */
+let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
 
 cannascene.On("loaded", () => {
 	console.log("cannascene: scene loaded");
 	/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-		 // enableVideoPlayer2();
+		 enableVideoPlayer2();
 	/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-		enableScreenStuff2();
+		// enableScreenStuff2();
 });
 
 if(window.isBanter){
