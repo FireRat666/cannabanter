@@ -91,7 +91,7 @@ function enableScreenStuff2() {
 	firescreen.setAttribute("lock-position", "true");
 	firescreen.setAttribute("mipmaps", "1");
 	firescreen.setAttribute("pixelsperunit", "1600");
-	// firescreen.setAttribute("castmode", "true");
+	firescreen.setAttribute("castmode", "true");
 	// firescreen.setAttribute("backdrop", "false");
 	firescreen.setAttribute("disable-rotation", "true");
 	firescreen.setAttribute("hand-controls", "true");
