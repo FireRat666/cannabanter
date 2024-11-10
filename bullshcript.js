@@ -139,7 +139,7 @@ function enableScreenThingy() {
 		firescreen.setAttribute("rotation", "0 180 0");		
 		firescreen.setAttribute("mipmaps", "0");
 		firescreen.setAttribute("pixelsperunit", "1300");
-		firescreen.setAttribute("hand-controls", "true");
+		firescreen.setAttribute("hand-controls", "false");
 		firescreen.setAttribute("announce", "true");
 		firescreen.setAttribute("announce-events", "true");
 		firescreen.setAttribute("announce-four-twenty", "true");
