@@ -147,7 +147,7 @@ function enableScreenThingy() {
 		firescreen.setAttribute("width", "1280");
 		firescreen.setAttribute("height", "720");
 		firescreen.setAttribute("website", otherwebsiteurl);
-		firescreen.setAttribute("disable-rotation", "true");
+		// firescreen.setAttribute("disable-rotation", "false");
 		firescreen.setAttribute("custom-button01-url", "https://firer.at/pages/scuffeduno.html");
 		firescreen.setAttribute("custom-button02-url", "https://jackbox.tv");
 		firescreen.setAttribute("custom-button03-url", "https://papas.tv");
