@@ -10,7 +10,7 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
 /* YouTube Live - https://www.youtube.com/embed/vbuVBe8EtI4?autoplay=1&controls=0 */
 
-let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
+let websiteurl = "https://www.youtube.com/embed/vbuVBe8EtI4?autoplay=1&controls=0"; /* ?autoplay=1&controls=0 For YouTube Live */
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
 
