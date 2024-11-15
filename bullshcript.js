@@ -8,7 +8,7 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 */
 
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
-/* YouTube Live - https://www.youtube.com/embed/EF0-j9ORe2Y?autoplay=1&controls=0 */
+ YouTube Live - https://www.youtube.com/embed/vbuVBe8EtI4?autoplay=1&controls=0 */
 
 let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
 
@@ -19,9 +19,9 @@ async function somerandomStartCrap() {
 	await waitingForUnity(); console.log("SCRIPT: Unity-Loaded"); setSceneSettings(); setTimeout(() => { 
 
 		/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-			 enableVideoPlayer2();
+			// enableVideoPlayer2();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-			// enableScreenStuff2();
+			 enableScreenStuff2();
 
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
