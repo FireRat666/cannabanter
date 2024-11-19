@@ -7,7 +7,7 @@ Tech House Mix PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12
 CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 */
 
-/* Screencast - https://screen.sdq.st:8443/?room=cannabanter */
+ Screencast - https://screen.sdq.st:8443/?room=cannabanter */
 /* YouTube Live - https://www.youtube.com/embed/vbuVBe8EtI4?autoplay=1&controls=0 */
 
 /* CHANGE THIS URL FOR SCREENCAST OR YOUTUBE LIVE */
