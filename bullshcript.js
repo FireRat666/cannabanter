@@ -23,6 +23,8 @@ async function somerandomStartCrap() {
 			// enableVideoPlayer2();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
 			 enableScreenStuff2();
+		/* UNCOMMENTED THIS TO ENABLE CARDS AGAINST HUMANITY */
+			 enableCardsAgainstHumanity();
 
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
@@ -158,6 +160,22 @@ function enableScreenThingy() {
 		firescreen.setAttribute("src", "https://firer.at/scripts/firescreenv2.js");
 		document.querySelector("a-scene").appendChild(firescreen);
 	};
+}
+
+let gameCahDisabled = true;
+function enableCardsAgainstHumanity() {
+  if (gameCahDisabled){ gameCahDisabled = false;
+   setTimeout(() => { 
+	console.log("Adding CAH");
+	const cah = document.createElement("script");
+	cah.id = "cah-cannabanter";
+	cah.setAttribute("position", "0 6.09 -15.3");
+	cah.setAttribute("instance", "cannabanter");
+	cah.setAttribute("src", "https://cah-extra.glitch.me/script.js");
+	document.querySelector("a-scene").appendChild(cah);
+   }, 5000); 
+  }
+    console.log("CAH enabled");
 }
 
 setTimeout(() => { somerandomStartCrap(); }, 5000);
