@@ -102,9 +102,9 @@ function enableScreenStuff2() {
 		firescreen.setAttribute("backdrop", "false");
 		firescreen.setAttribute("disable-rotation", "true");
 		firescreen.setAttribute("hand-controls", "true");
-		firescreen.setAttribute("announce", "false");
-		firescreen.setAttribute("announce-events", "false");
-		firescreen.setAttribute("announce-four-twenty", "false");
+		firescreen.setAttribute("announce", "true");
+		firescreen.setAttribute("announce-events", "true");
+		firescreen.setAttribute("announce-four-twenty", "true");
 		firescreen.setAttribute("volume", "0.25");
 		firescreen.setAttribute("width", "1920");
 		firescreen.setAttribute("height", "1080");
