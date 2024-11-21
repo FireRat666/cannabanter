@@ -104,7 +104,7 @@ function enableScreenStuff2() {
 		firescreen.setAttribute("hand-controls", "true");
 		firescreen.setAttribute("announce", "true");
 		firescreen.setAttribute("announce-events", "true");
-		firescreen.setAttribute("announce-four-twenty", "true");
+		firescreen.setAttribute("announce-420", "true");
 		firescreen.setAttribute("volume", "0.25");
 		firescreen.setAttribute("width", "1920");
 		firescreen.setAttribute("height", "1080");
