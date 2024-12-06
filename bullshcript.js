@@ -11,7 +11,7 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 /* YouTube Live - https://www.youtube.com/embed/***********?autoplay=1&controls=0 */ /* Use this for line 14. replace *********** after embed the url for Drac live session */
 
 /* CHANGE THIS URL FOR SCREENCAST OR YOUTUBE LIVE */
-let websiteurl = "https://www.youtube.com/embed/mtGL2r3UIiE?autoplay=1&controls=0"; /* ?autoplay=1&controls=0 For YouTube Live */
+let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter"; /* ?autoplay=1&controls=0 For YouTube Live */
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
 
@@ -20,9 +20,9 @@ async function somerandomStartCrap() {
 	await waitingForUnity(); console.log("SCRIPT: Unity-Loaded"); setSceneSettings(); setTimeout(() => { 
 
 		/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-			// enableVideoPlayer2();
+			 enableVideoPlayer2();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-			 enableScreenStuff2();
+			// enableScreenStuff2();
 
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
