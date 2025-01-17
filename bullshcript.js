@@ -12,7 +12,7 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 /* Fire Embed - https://cannabanter.firer.at/embed.html?21 */
 
 /* CHANGE THIS URL FOR SCREENCAST OR YOUTUBE LIVE */
-let websiteurl = "https://www.youtube.com/embed/SBiEp9K6bMM/" /* ?autoplay=1&controls=0 For YouTube Live */
+let websiteurl = "https://cannabanter.firer.at/embed.html" /* ?autoplay=1&controls=0 For YouTube Live */
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
 
