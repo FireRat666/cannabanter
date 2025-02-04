@@ -12,8 +12,8 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 /* Fire Embed - https://cannabanter.firer.at/embed.html?21 */
 
 /* CHANGE THIS URL FOR SCREENCAST OR YOUTUBE LIVE */
-let websiteurl = "https://cannabanter.firer.at/embed.html" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
-//let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter" /* FOR SCREENCAST - Uncomment this AND comment out the line above */
+//let websiteurl = "https://cannabanter.firer.at/embed.html" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
+let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter" /* FOR SCREENCAST - Uncomment this AND comment out the line above */
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
 
@@ -22,9 +22,9 @@ async function somerandomStartCrap() {
 	await waitingForUnity(); console.log("SCRIPT: Unity-Loaded"); setSceneSettings(); setTimeout(() => { 
 
 		/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-			 enableVideoPlayer2();
+			// enableVideoPlayer2();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-			// enableScreenStuff2();
+			 enableScreenStuff2();
 
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
