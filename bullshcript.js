@@ -11,7 +11,7 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 /* YouTube Live - https://www.youtube.com/embed/***********?autoplay=1&controls=0 */ /* Use this for line 14. replace *********** after embed the url for Drac live session */
 /* Fire Embed - https://cannabanter.firer.at/embed.html?21 */
 
-/* CHANGE THIS URL FOR SCREENCAST OR YOUTUBE LIVE */
+/* TOGGLE FOR YOUTUBE LIVE OR SCREENCAST */
 /* DO NOT CHANGE THESE LINKS, only comment out line 16 or 17 */
 let websiteurl = "https://cannabanter.firer.at/embed.html?21" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
 //let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter" /* FOR SCREENCAST - Uncomment this AND comment out the line above */
