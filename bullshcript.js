@@ -71,7 +71,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("position", "0 -3 8");
 		videoplayer.setAttribute("hand-controls", "true");
 		videoplayer.setAttribute("button-position", "-0.15 1.159 30.156");
-		videoplayer.setAttribute("volume", "1");
+		videoplayer.setAttribute("volume", "3");
 		videoplayer.setAttribute("button-rotation", "0 0 0");
 		videoplayer.setAttribute("button-scale", "0.3 0.3 0.3");
 	  	videoplayer.setAttribute("spatial", "false");
@@ -105,7 +105,7 @@ function enableScreenStuff() {
 		firescreen.setAttribute("screen-scale", "0.515 0.515 1");
 		firescreen.setAttribute("position", "0 0.1 -29");
 		firescreen.setAttribute("lock-position", "true");
-		firescreen.setAttribute("mipmaps", "1");
+		firescreen.setAttribute("mipmaps", "0");
 		firescreen.setAttribute("pixelsperunit", "1600");
 		firescreen.setAttribute("castmode", "true");
 		firescreen.setAttribute("backdrop", "false");
