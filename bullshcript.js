@@ -23,9 +23,9 @@ async function somerandomStartCrap() {
 	await waitingForUnity(); console.log("SCRIPT: Unity-Loaded"); setSceneSettings(); setTimeout(() => { 
 
 		/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-			 enableVideoPlayer2();
+			 enableVideoPlayer();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-			// enableScreenStuff2();
+			// enableScreenStuff();
 
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
@@ -56,7 +56,7 @@ async function setSceneSettings() {
 
 // videoplayer toggle by HBR.& Fire Thank you HBR!
 let ytplayerdisabled = true;
-  function enableVideoPlayer2() {
+  function enableVideoPlayer() {
   if (ytplayerdisabled){
     console.log("yt player enabling");
     ytplayerdisabled = false;
@@ -87,7 +87,7 @@ let ytplayerdisabled = true;
 };
 
 let screenstuffDisabled = true;
-function enableScreenStuff2() {
+function enableScreenStuff() {
   if (screenstuffDisabled){
 		screenstuffDisabled = false;
 		console.log("Adding Screen Cast");
