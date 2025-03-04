@@ -58,7 +58,7 @@ async function setSceneSettings() {
 	setTimeout(() => { cannascene.SetSettings(settings); }, 2000);
 };
 
-// videoplayer toggle by HBR.& Fire Thank you HBR!
+// Video Player Toggle by HBR & FireRat
 let ytplayerdisabled = true;
   function enableVideoPlayer() {
   if (ytplayerdisabled){
@@ -74,8 +74,9 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("volume", "1");
 		videoplayer.setAttribute("button-rotation", "0 0 0");
 		videoplayer.setAttribute("button-scale", "0.3 0.3 0.3");
-		videoplayer.setAttribute("spatial-min-distance", "1");
-		videoplayer.setAttribute("spatial-max-distance", "500");
+	  	videoplayer.setAttribute("spatial", "false");
+		// videoplayer.setAttribute("spatial-min-distance", "1");
+		// videoplayer.setAttribute("spatial-max-distance", "500");
 		videoplayer.setAttribute("playlist", "PLZWiw-xxQ4SNl-dmJhSk6xSnGuALdCZGf");
 		videoplayer.setAttribute("announce", "false");
 		// videoplayer.setAttribute("announce-four-twenty", "false");
@@ -90,6 +91,7 @@ let ytplayerdisabled = true;
   } else {console.log("enable yt player called");}
 };
 
+// Fire Screen Toggle
 let screenstuffDisabled = true;
 function enableScreenStuff() {
   if (screenstuffDisabled){
@@ -112,7 +114,7 @@ function enableScreenStuff() {
 		firescreen.setAttribute("announce", "true");
 		firescreen.setAttribute("announce-events", "true");
 		firescreen.setAttribute("announce-420", "true");
-		firescreen.setAttribute("volume", "0.25");
+		firescreen.setAttribute("volume", "0.2");
 		firescreen.setAttribute("width", "1920");
 		firescreen.setAttribute("height", "1080");
 		firescreen.setAttribute("screen-position", "0 -3.1 -21");
@@ -133,6 +135,44 @@ function enableScreenStuff() {
 	console.log("Screen Stuff enabled: " + screenstuffDisabled);
 };
 
+// Karaoke Player Toggle
+let karaokeplayerdisabled = true;
+  function enableKaraokePlayer() {
+  if (karaokeplayerdisabled){
+    console.log("karaoke player enabling");
+    karaokeplayerdisabled = false;
+    const videoplayer = document.createElement("script");
+		videoplayer.id = "cannabanter-karaokeplayer";
+		videoplayer.setAttribute("scale", "1 1 1");
+		videoplayer.setAttribute("mip-maps", "0");
+		videoplayer.setAttribute("rotation", "0 0 0");
+		videoplayer.setAttribute("position", "0 -3 8");
+		videoplayer.setAttribute("hand-controls", "true");
+		videoplayer.setAttribute("button-position", "-2.815 1.3775 17.5");
+		videoplayer.setAttribute("volume", "10");
+		videoplayer.setAttribute("button-rotation", "0 0 0");
+		videoplayer.setAttribute("button-scale", "0.7 0.7 0.7");
+		videoplayer.setAttribute("singer-button-position", "0 -50 0");
+		videoplayer.setAttribute("singer-button-rotation", "0 0 0");
+		// videoplayer.setAttribute("singer-button-scale", "1.5 1.5 1.5");
+	  	videoplayer.setAttribute("spatial", "false");
+		// videoplayer.setAttribute("spatial-min-distance", "1");
+		// videoplayer.setAttribute("spatial-max-distance", "1000");
+		videoplayer.setAttribute("playlist", "");
+		videoplayer.setAttribute("announce", "false");
+	  	videoplayer.setAttribute("announce-events", "false");
+		// videoplayer.setAttribute("data-playlist-icon-url", "https://cdn.glitch.global/69f02c8f-d538-43b7-9c66-5d3973208d79/Playlist.png?v=1713028119937");
+		// videoplayer.setAttribute("data-vol-up-icon-url", "https://cdn.glitch.global/69f02c8f-d538-43b7-9c66-5d3973208d79/VolUp.png?v=1713028119640");
+		// videoplayer.setAttribute("data-vol-down-icon-url", "https://cdn.glitch.global/69f02c8f-d538-43b7-9c66-5d3973208d79/VolDown.png?v=1713028119279");
+		// videoplayer.setAttribute("data-mute-icon-url", "https://cdn.glitch.global/69f02c8f-d538-43b7-9c66-5d3973208d79/Mute.png?v=1713028120228");
+		// videoplayer.setAttribute("data-skip-forward-icon-url", "https://cdn.glitch.global/69f02c8f-d538-43b7-9c66-5d3973208d79/Forward.png?v=1713028118642");
+		// videoplayer.setAttribute("data-skip-backward-icon-url", "https://cdn.glitch.global/69f02c8f-d538-43b7-9c66-5d3973208d79/Backwardsd.png?v=1713028118986");
+		videoplayer.setAttribute("src", "https://vidya.sdq.st/karaoke.js"); // https://best-v-player.glitch.me/karaoke.js
+    document.querySelector("a-scene").appendChild(videoplayer);
+  } else {console.log("enable karaoke player called");}
+};
+
+// Fire Tablet Toggle
 let otherScreenDisabled = true;
 
 function enableScreenThingy() {
@@ -141,7 +181,7 @@ function enableScreenThingy() {
 		otherScreenDisabled = false;
 		console.log("Adding Screen");
 		const firescreen = document.createElement("script");
-		firescreen.id = "banter-firescreen";
+		firescreen.id = "cannabanter-firetablet";
 		firescreen.setAttribute("scale", "0.8 0.8 1");
 		firescreen.setAttribute("position", "-3.131 7.5 -15.3");
 		firescreen.setAttribute("rotation", "0 180 0");		
