@@ -13,23 +13,27 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 
 /* TOGGLE FOR YOUTUBE LIVE OR SCREENCAST */
 /* DO NOT CHANGE THESE LINKS, only comment out line 16 or 17 */
- let websiteurl = "https://cannabanter.firer.at/embed.html?21" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
+// let websiteurl = "https://cannabanter.firer.at/embed.html?420" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
 // let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter" /* FOR SCREENCAST - Uncomment this AND comment out the line above */
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
 
+/*
 async function somerandomStartCrap() {
 	const waitingForUnity = async () => { while (!cannascene.unityLoaded) { await new Promise(resolve => setTimeout(resolve, 500)); } };
 	await waitingForUnity(); console.log("SCRIPT: Unity-Loaded"); setSceneSettings(); setTimeout(() => { 
-
-		/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-			 enableVideoPlayer();
+*/
+		/* UNCOMMENTED THIS TO ENABLE THE YOUTUBE PLAYER */
+			// enableVideoPlayer();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
 			// enableScreenStuff();
-
+		/* UNCOMMENTED THIS TO ENABLE THE KARAOKE PLAYER */
+			// enableKaraokePlayer();
+/*
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
 };
+*/
 
 async function setSceneSettings() {
 	console.log("setSceneSettings Loading...");
