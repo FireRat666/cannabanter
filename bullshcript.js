@@ -18,22 +18,20 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
 
-/*
 async function somerandomStartCrap() {
 	const waitingForUnity = async () => { while (!cannascene.unityLoaded) { await new Promise(resolve => setTimeout(resolve, 500)); } };
 	await waitingForUnity(); console.log("SCRIPT: Unity-Loaded"); setSceneSettings(); setTimeout(() => { 
-*/
+
 		/* UNCOMMENTED THIS TO ENABLE THE YOUTUBE PLAYER */
 			// enableVideoPlayer();
 		/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
 			// enableScreenStuff();
 		/* UNCOMMENTED THIS TO ENABLE THE KARAOKE PLAYER */
 			// enableKaraokePlayer();
-/*
+		
     setTimeout(() => { enableScreenThingy(); }, 5000);
 	}, 1000);
 };
-*/
 
 async function setSceneSettings() {
 	console.log("setSceneSettings Loading...");
