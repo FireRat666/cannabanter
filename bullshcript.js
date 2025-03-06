@@ -37,8 +37,8 @@ async function setSceneSettings() {
 	console.log("setSceneSettings Loading...");
 	const settings = new BS.SceneSettings();
 /*	settings.EnableDevTools = false;
-	settings.EnableTeleport = false;
 	settings.EnableForceGrab = false; */
+	settings.EnableTeleport = false;
 	settings.EnableSpiderMan = true;
 /*	settings.EnablePortals = true;
 	settings.EnableGuests = true;
