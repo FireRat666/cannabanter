@@ -33,11 +33,10 @@ async function somerandomStartCrap() {
 	}, 1000);
 };
 
-/*
 async function setSceneSettings() {
 	console.log("setSceneSettings Loading...");
 	const settings = new BS.SceneSettings();
-	settings.EnableDevTools = false;
+/*	settings.EnableDevTools = false;
 	settings.EnableTeleport = false;
 	settings.EnableForceGrab = false;
 	settings.EnableSpiderMan = true;
@@ -52,11 +51,10 @@ async function setSceneSettings() {
 	settings.RefreshRate = 72;
 	settings.ClippingPlane = new BS.Vector2(0.05, 1000);
 	settings.SpawnPoint = new BS.Vector4(0, 0.01, 0, 180);
-	cannascene.TeleportTo({x: 0, y: 0.01, z: 0}, 180, true);
+	cannascene.TeleportTo({x: 0, y: 0.01, z: 0}, 180, true); */
 	cannascene.SetSettings(settings);
 	setTimeout(() => { cannascene.SetSettings(settings); }, 2000);
 };
-*/
 
 // Video Player Toggle by HBR & FireRat
 let ytplayerdisabled = true;
