@@ -33,6 +33,7 @@ async function somerandomStartCrap() {
 	}, 1000);
 };
 
+/*
 async function setSceneSettings() {
 	console.log("setSceneSettings Loading...");
 	const settings = new BS.SceneSettings();
@@ -55,6 +56,7 @@ async function setSceneSettings() {
 	cannascene.SetSettings(settings);
 	setTimeout(() => { cannascene.SetSettings(settings); }, 2000);
 };
+*/
 
 // Video Player Toggle by HBR & FireRat
 let ytplayerdisabled = true;
