@@ -38,9 +38,9 @@ async function setSceneSettings() {
 	const settings = new BS.SceneSettings();
 /*	settings.EnableDevTools = false;
 	settings.EnableTeleport = false;
-	settings.EnableForceGrab = false;
+	settings.EnableForceGrab = false; */
 	settings.EnableSpiderMan = true;
-	settings.EnablePortals = true;
+/*	settings.EnablePortals = true;
 	settings.EnableGuests = true;
 	// settings.EnableQuaternionPose = false;
 	// settings.EnableControllerExtras = true;
