@@ -8,12 +8,12 @@ CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
 */
 
 /* Screencast - https://screen.sdq.st:8443/?room=cannabanter */ /* This one for gamestream. remove publish. put in line 14 */
-/* YouTube Live - https://www.youtube.com/embed/***********?autoplay=1&controls=0 */ /* Use this for line 14. replace *********** after embed the url for Drac live session */
+/* YouTube Live - https://www.youtube.com/embed/KaPh2wawKrs?autoplay=1&controls=0 */ /* Use this for line 14. replace *********** after embed the url for Drac live session */
 /* Fire Embed - https://cannabanter.firer.at/embed.html?21 */
 
 /* TOGGLE FOR YOUTUBE LIVE OR SCREENCAST */
 /* DO NOT CHANGE THESE LINKS, only comment out line 16 or 17 */
-// let websiteurl = "https://cannabanter.firer.at/embed.html?420" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
+let websiteurl = "https://cannabanter.firer.at/embed.html?420" /* FOR YOUTUBE LIVE - Uncomment this & change youtubevideoID in line 13 in embed.html AND comment out the line below */
 // let websiteurl = "https://screen.sdq.st:8443/?room=cannabanter" /* FOR SCREENCAST - Uncomment this AND comment out the line above */
 
 let otherwebsiteurl = "https://firer.at/pages/games.html"; // Small Screen Up Stairs
