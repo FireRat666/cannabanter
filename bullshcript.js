@@ -32,8 +32,8 @@ async function somerandomStartCrap() {
 		/* UNCOMMENTED THIS TO ENABLE THE KARAOKE PLAYER */
 			// enableKaraokePlayer();
 		
-//    setTimeout(() => { enableScreenThingy(); }, 5000);
-//	}, 1000);
+    setTimeout(() => { enableScreenThingy(); }, 5000);
+	}, 1000);
 };
 
 async function setSceneSettings() {
