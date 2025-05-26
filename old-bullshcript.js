@@ -1,5 +1,5 @@
 // ZEPHII, you no longer need to edit bullshcript.js for anything, please edit youtubevideoID in line 13 in embed.html instead.
-// ------> https://github.com/FireRat666/cannabanter/blob/main/embed.html <------
+// ------>  https://github.com/FireRat666/cannabanter/blob/main/embed.html <------
 
 const cannascene = BS.BanterScene.GetInstance();
 
